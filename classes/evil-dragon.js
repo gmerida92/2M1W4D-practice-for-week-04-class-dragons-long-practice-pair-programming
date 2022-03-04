@@ -17,7 +17,7 @@ class EvilDragon extends Dragon{
 
 }
 
-const TROGDOR = new EvilDragon("TROGDOOOR!!!", "green", ["burninate the countryside", "burninate all the peasants"], "the peasants");
+const TROGDOR = new EvilDragon("TROGDOOOR!!!", "green", ["burninate the countryside", "burninate the peasants", "burninate all the people's thatched roof cottages"], "the peasants");
 
 TROGDOR.dontInviteThemOverForDinner();
 console.log(TROGDOR.burnsNemesis());
